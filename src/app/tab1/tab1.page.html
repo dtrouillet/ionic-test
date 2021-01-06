@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Accueil
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,29 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Accueil</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Bienvenue</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Enregistrez ici un nouvel IBAN, demandez le paiement à vos client et gérer le suivi de vos affaires.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="qr-code-outline" slot="start"></ion-icon>
+      <ion-label>QRCode</ion-label>
+      <ion-button fill="outline" slot="end">Nouveau</ion-button>
+    </ion-item>
+
+    <ion-card-content>
+      Vous pouvez maintenant généré un QRCode pour effectuer une paiement sans contact et sécurisé.
+    </ion-card-content>
+  </ion-card>
 </ion-content>

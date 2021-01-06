@@ -1,0 +1,19 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "cordotest",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {},
+  "server": {
+    "url": "http://10.1.0.174:8101",
+    "cleartext": true,
+    "originalUrl": "http://10.1.0.174:8100",
+    "originalCleartext": true
+  }
+}
